@@ -4,7 +4,7 @@
   "description": "simple app for testing mocha",
   "main": "app.js",
   "scripts": {
-    "test": "exit 1",
+    "test": "mocha || true",
     "start": "node app.js"
   },
   "author": "",
